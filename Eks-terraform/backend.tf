@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "tonystarkbucketmb" # Replace with your actual S3 bucket name
+    bucket = "redditsaibucket" # Replace with your actual S3 bucket name
     key    = "EKS/terraform.tfstate"
     region = "us-east-1"
   }
